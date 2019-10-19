@@ -1,0 +1,20 @@
+index:
+  breadcrumb:
+    - title: 待发货订单
+  title: 待发货订单
+add:
+  breadcrumb:
+    - title: 待发货订单
+      to: /product_order
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title:
+      to: /product_order
+    - title: 修改
+  title: 修改
+shipped:
+  breadcrumb:
+    - title: 已发货订单
+  title: 已发货订单

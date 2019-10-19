@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 快递管理
+  title: 快递管理
+add:
+  breadcrumb:
+    - title: 快递管理
+      to: /express
+    - title: 添加快递公司
+  title: 添加快递公司
+edit:
+  breadcrumb:
+    - title: 快递管理
+      to: /express
+    - title: 修改快递公司
+  title: 修改快递公司

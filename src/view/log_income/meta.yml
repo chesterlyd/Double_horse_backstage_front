@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 收益记录
+  title: 收益记录
+add:
+  breadcrumb:
+    - title:
+      to: /log_income
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title:
+      to: /log_income
+    - title: 修改
+  title: 修改

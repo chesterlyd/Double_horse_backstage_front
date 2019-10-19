@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 提现记录
+  title: 提现记录
+add:
+  breadcrumb:
+    - title:
+      to: /log_withdraw
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title:
+      to: /log_withdraw
+    - title: 修改
+  title: 修改

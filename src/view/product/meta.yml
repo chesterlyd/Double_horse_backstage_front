@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 商品管理
+  title: 商品管理
+add:
+  breadcrumb:
+    - title: 商品管理
+      to: /product
+    - title: 添加商品
+  title: 添加商品
+edit:
+  breadcrumb:
+    - title: 商品管理
+      to: /product
+    - title: 修改商品
+  title: 修改商品

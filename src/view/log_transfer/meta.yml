@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 转账记录
+  title: 转账记录
+add:
+  breadcrumb:
+    - title:
+      to: /log_transfer
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title:
+      to: /log_transfer
+    - title: 修改
+  title: 修改

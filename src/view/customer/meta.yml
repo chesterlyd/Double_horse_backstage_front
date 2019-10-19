@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 客服管理
+  title: 客服管理
+add:
+  breadcrumb:
+    - title: 客服管理
+      to: /customer
+    - title: 添加客服
+  title: 添加客服
+edit:
+  breadcrumb:
+    - title:
+      to: /customer
+    - title: 修改客服
+  title: 修改客服

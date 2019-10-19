@@ -1,0 +1,28 @@
+index:
+  breadcrumb:
+    - title: 会员管理
+  title: 会员管理
+add:
+  breadcrumb:
+    - title:
+      to: /member
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title:
+      to: /member
+    - title: 修改
+  title: 修改
+recharge:
+  breadcrumb:
+    - title: 会员管理
+      to: /member
+    - title: 积分充值
+  title: 积分充值
+complainUser:
+  breadcrumb:
+    - title: 会员管理
+      to: /member
+    - title: 已封号会员
+  title: 已封号会员

@@ -1,0 +1,16 @@
+index:
+  breadcrumb:
+    - title: 系统设置
+  title: 系统设置
+add:
+  breadcrumb:
+    - title: 系统设置
+      to: /setting
+    - title: 添加
+  title: 添加
+edit:
+  breadcrumb:
+    - title: 系统设置
+      to: /setting
+    - title: 修改
+  title: 修改

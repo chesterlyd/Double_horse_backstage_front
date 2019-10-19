@@ -1,0 +1,16 @@
+index:
+  breadcrumb: 
+    - title: 登录日志
+  title: 登录日志
+add:
+  breadcrumb: 
+    - title: 登录日志
+      to: /admin_login_log
+    - title: 添加
+  title: 添加登录日志
+edit:
+  breadcrumb: 
+    - title: 登录日志
+      to: /admin_login_log
+    - title: 修改
+  title: 修改登录日志
