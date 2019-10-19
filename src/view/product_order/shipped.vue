@@ -19,6 +19,9 @@
       :loading="tableLoading"
       style="margin-top:20px;"
     >
+      <template slot-scope="{ row }" slot="logistics_company">
+        {{ row.express.com_name }}
+      </template>
       <template slot-scope="{ row }" slot="product_name">
         {{ row.product.name }}
       </template>
@@ -79,6 +82,14 @@
                         "key": "order_pay_id",
                         "slot": "order_pay",
                         "align": "center"
+                    },
+                    {
+                        title: '快递公司',
+                        slot: 'logistics_company'
+                    },
+                    {
+                        title: '快递单号',
+                        key: 'logistics_receipt'
                     },
                     {
                         "title": "类型",
