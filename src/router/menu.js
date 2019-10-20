@@ -8,20 +8,15 @@
  * }
  */
 
-export default [{
-  title: '文档',
-  to: 'https://lison16.github.io/iview-admin-doc/#/',
-  icon: 'ios-book',
-  target: '_blank'
-},
+export default [
   {
     title: '会员管理',
     icon: 'ios-cog',
     children: [
-      {
-        title: "会员管理",
-        to: "/member"
-      },
+      // {
+      //   title: "会员管理",
+      //   to: "/member"
+      // },
       {
         title: "已封号会员",
         to: "/member/complainUser"

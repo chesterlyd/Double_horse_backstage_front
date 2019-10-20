@@ -18,6 +18,9 @@
       :loading="tableLoading"
       style="margin-top:20px;"
     >
+      <template slot-scope="{ row }" slot="parentMember">
+        {{ row.tree.parentinfo.username }}
+      </template>
       <template slot-scope="{ row }" slot="status">
         <span> {{ member_status[row.status] }}</span>
       </template>
@@ -85,6 +88,10 @@
                     {
                         "title": "用户名",
                         "key": "username"
+                    },
+                    {
+                        title: '上级用户',
+                        slot: 'parentMember'
                     },
                     {
                         "title": "邀请码",
